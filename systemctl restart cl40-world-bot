@@ -1,0 +1,11 @@
+bot.message(with_text: '!stream') do |event|
+  event.respond "🔴 **CL40 World LIVE Stream Started!**\n" +
+                "🎵 Streaming now on all channels...\n" +
+                "Patreon & Milkly supporters get VIP access!"
+end
+
+bot.message(with_text: '!live') do |event|
+  event.respond "🚀 **Live Mode Activated**\n" +
+                "Chico Loco 40 & LB0025 on stream!\n" +
+                "Join Discord: https://discord.gg/H5cw3bexg"
+end
